@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {customer_name}",
+ "creation": "2024-10-01 21:16:35.590854",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "customer_name",
+  "posting_date",
+  "bill_item",
+  "section_break_gtbh",
+  "total_expense",
+  "total_income",
+  "total_profitloss"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Name ",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "total_expense",
+   "fieldtype": "Currency",
+   "label": "Total Expense",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_income",
+   "fieldtype": "Currency",
+   "label": "Total Income",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_profitloss",
+   "fieldtype": "Currency",
+   "label": "Total Profit/Loss",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bill_item",
+   "fieldtype": "Table",
+   "label": "Bill Item",
+   "options": "Customer Monthly Bill Item"
+  },
+  {
+   "fieldname": "section_break_gtbh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-01 21:27:30.853548",
+ "modified_by": "Administrator",
+ "module": "Easybiz",
+ "name": "Customer Monthly Bill",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

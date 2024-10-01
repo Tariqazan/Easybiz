@@ -28,7 +28,7 @@ app_license = "mit"
 app_include_css = [
 	"/assets/easybiz/css/easybiz.css"
 ]
-# app_include_js = "/assets/easybiz/js/easybiz.js"
+app_include_js = "/assets/easybiz/js/easybiz.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/easybiz/css/easybiz.css"
@@ -177,7 +177,6 @@ app_include_css = [
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "easybiz.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;

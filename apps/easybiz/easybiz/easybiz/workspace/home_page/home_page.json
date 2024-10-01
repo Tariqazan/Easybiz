@@ -1,0 +1,87 @@
+{
+ "app": "easybiz",
+ "charts": [],
+ "content": "[{\"id\":\"u62rtfzV8g\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Home Page</span>\",\"col\":12}},{\"id\":\"EgffPX3emS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bonolota Filling Station\",\"col\":3}},{\"id\":\"0FxBIHHd9C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hotel\",\"col\":3}},{\"id\":\"CStA-Vz7l7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Roller\",\"col\":3}},{\"id\":\"Rhxchnlvvr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lorry\",\"col\":3}},{\"id\":\"b9Wmkp9UAS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Truck\",\"col\":3}},{\"id\":\"g4fZT_hMvS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pickup\",\"col\":3}},{\"id\":\"F2hLSpt7Se\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Labour Bill\",\"col\":3}},{\"id\":\"XE2k72VBdO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5Ro2Rp9jjj\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Bonolota Filling Station Links\",\"col\":12}}]",
+ "creation": "2024-10-01 21:07:44.297210",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Bonolota Filling Station Links",
+   "label": "Bonolota Filling Station Links"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "website",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Home Page",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2024-10-01 23:26:29.731115",
+ "modified_by": "Administrator",
+ "module": "Easybiz",
+ "name": "Home Page",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bonolota Filling Station",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Bonolota%20Filling%20Station"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lorry",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Lorry"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Truck",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Truck"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hotel",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Hotel"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pickup",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Pickup"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Roller",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Roller"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Labour Bill",
+   "type": "URL",
+   "url": "/app/journal-entry?company=Labour%20Bill"
+  }
+ ],
+ "title": "Home Page",
+ "type": "Workspace"
+}
