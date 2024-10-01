@@ -25,7 +25,9 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/easybiz/css/easybiz.css"
+app_include_css = [
+	"/assets/easybiz/css/easybiz.css"
+]
 # app_include_js = "/assets/easybiz/js/easybiz.js"
 
 # include js, css files in header of web template
