@@ -28,7 +28,9 @@ app_license = "mit"
 app_include_css = [
 	"/assets/easybiz/css/easybiz.css"
 ]
-app_include_js = "/assets/easybiz/js/easybiz.js"
+app_include_js = [
+    "/assets/easybiz/js/easybiz.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/easybiz/css/easybiz.css"
@@ -176,8 +178,10 @@ app_include_js = "/assets/easybiz/js/easybiz.js"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# }
+override_whitelisted_methods = {
+    "easybiz.api.get_companies": "easybiz.api.get_companies"
+}
+
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
