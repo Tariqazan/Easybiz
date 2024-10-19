@@ -1,3 +1,7 @@
 :root {
-	--navbar-bg: #f3adfb;
+    --navbar-bg: #f3adfb;
+}
+
+.body-sidebar {
+    display: none;
 }

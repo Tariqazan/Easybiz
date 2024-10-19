@@ -30,7 +30,8 @@ app_include_css = [
     "/assets/easybiz/css/all.min.css"
 ]
 app_include_js = [
-    "/assets/easybiz/js/easybiz.js"
+    "/assets/easybiz/js/easybiz.js",
+    "/assets/easybiz/js/navbar.js"
 ]
 
 # include js, css files in header of web template
