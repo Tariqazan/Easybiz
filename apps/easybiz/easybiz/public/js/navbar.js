@@ -8,6 +8,7 @@ frappe.templates.navbar = `
               src="{{ frappe.boot.app_logo_url }}"
               alt="{{ __("App Logo") }}"
             >
+            Accounts Manager
           </a>
           <ul class="nav navbar-nav d-none d-sm-flex" id="navbar-breadcrumbs"></ul>
           <div class="collapse navbar-collapse justify-content-end">
