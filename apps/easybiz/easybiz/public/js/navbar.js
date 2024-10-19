@@ -5,7 +5,7 @@ frappe.templates.navbar = `
             <img
               class="app-logo"
               style="width: {{ navbar_settings.logo_width || 60 }}px"
-              src="{{ frappe.boot.app_logo_url }}"
+              src="/app/home-page"
               alt="{{ __("App Logo") }}"
             >
             Accounts Manager
