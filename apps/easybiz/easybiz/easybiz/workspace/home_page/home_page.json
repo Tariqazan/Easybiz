@@ -1,12 +1,12 @@
 {
  "app": "easybiz",
  "charts": [],
- "content": "[{\"id\":\"eflkH05EZ_\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Company List\",\"col\":12}}]",
+ "content": "[{\"id\":\"WwbhfjjaWc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Company Financial Statement\",\"col\":5}},{\"id\":\"eflkH05EZ_\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Home Page\",\"col\":12}}]",
  "creation": "2024-10-01 21:07:44.297210",
  "custom_blocks": [
   {
-   "custom_block_name": "Company List",
-   "label": "Company List"
+   "custom_block_name": "Home Page",
+   "label": "Home Page"
   }
  ],
  "docstatus": 0,
@@ -20,7 +20,7 @@
  "label": "Home Page",
  "link_type": "DocType",
  "links": [],
- "modified": "2024-10-18 12:31:48.576158",
+ "modified": "2024-11-03 23:30:03.320992",
  "modified_by": "Administrator",
  "module": "Easybiz",
  "name": "Home Page",
@@ -31,7 +31,15 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 23.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Company Financial Statement",
+   "link_to": "Consolidated Financial Statement",
+   "type": "Report"
+  }
+ ],
  "title": "Home Page",
  "type": "Workspace"
 }

@@ -2,6 +2,10 @@
     --navbar-bg: #f3adfb;
 }
 
-.body-sidebar {
-    display: none;
+.app-logo {
+    margin-right: 20px;
 }
+
+/* .body-sidebar {
+    display: none;
+} */
