@@ -6,6 +6,10 @@
     margin-right: 20px;
 }
 
-/* .body-sidebar {
+#navbar-breadcrumbs {
+    display: none !important;
+}
+
+.body-sidebar {
     display: none;
-} */
+}
