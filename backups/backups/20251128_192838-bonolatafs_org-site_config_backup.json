@@ -1,0 +1,8 @@
+{
+ "db_name": "_0440ce00f92dba66",
+ "db_password": "OOHTqDCPZUJbEzj3",
+ "db_type": "mariadb",
+ "db_user": "_0440ce00f92dba66",
+ "ssl_certificate": "/etc/letsencrypt/live/bonolatafs.org/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/bonolatafs.org/privkey.pem"
+}

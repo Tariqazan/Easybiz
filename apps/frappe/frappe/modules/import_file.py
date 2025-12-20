@@ -117,6 +117,10 @@ def import_file_by_path(
 			docs = [docs]
 
 		for doc in docs:
+			# Skip documents that don't have required fields
+			if not doc or not isinstance(doc, dict) or "doctype" not in doc or "name" not in doc:
+				continue
+			
 			# modified timestamp in db, none if doctype's first import
 			db_modified_timestamp = frappe.db.get_value(doc["doctype"], doc["name"], "modified")
 			is_db_timestamp_latest = db_modified_timestamp and (
